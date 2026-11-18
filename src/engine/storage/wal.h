@@ -1,10 +1,11 @@
 #ifndef WAL_H
 #define WAL_H
 
+#include <stddef.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <stdatomic.h>
-#include "../utils/fixed_point.h"
+#include "../../utils/fixed_point.h"
 
 typedef struct {
     uint64_t transaction_id;

@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdatomic.h>
-#include "../utils/fixed_point.h"
+#include "../../utils/fixed_point.h"
 
 typedef struct {
     _Atomic uint64_t account_id;
